@@ -1,0 +1,654 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Class Testing and Practice ",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyP/KKRsiu9sbKD95U1t3q9c",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sneazeanise/Data_Analytics_micro_cred_winter_2022/blob/main/Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nFMkxiPej9mk",
+        "outputId": "54191fd7-652a-43db-ee15-38674feee46c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hi Jim, how's your day today?\n"
+          ]
+        }
+      ],
+      "source": [
+        "message = \"Hi Jim, how's your day today?\" \n",
+        "print(message)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = \"Jim\"\n",
+        "last_name = \"Jones\"\n",
+        "full_name = first_name + \" \" + last_name\n",
+        "print(first_name)\n",
+        "print(last_name)\n",
+        "print(full_name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i13qI6hnBWjA",
+        "outputId": "45305baf-ba56-45f5-fe25-d46a1642c004"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Jim\n",
+            "Jones\n",
+            "Jim Jones\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "game = \"fortnite battle royal\"\n",
+        "print(game.lower())\n",
+        "print(game.upper())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jrEA4eLaDKgX",
+        "outputId": "84c9c74e-d6fd-45b8-8aad-7768365bc0d7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fortnite battle royal\n",
+            "FORTNITE BATTLE ROYAL\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "y = 12\n",
+        "z = 15\n",
+        "g = 2\n",
+        "x * y / x * (z + y) * x**g"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FIpSq31_DwuE",
+        "outputId": "c7e7fc97-2ae4-4fc5-cbfc-ef0ace7f43cc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8100.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 39
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = 2022\n",
+        "speak = \"when you realise \" + str(number) + \" is just 2020 too...\"\n",
+        "print(speak)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3isYR-dTFWFu",
+        "outputId": "d75ff18c-335b-4013-ec45-90ddab0c583c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "when you realise 2022 is just 2020 too...\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=True \n",
+        "b=False\n",
+        "output = (\" your a Monster \")\n",
+        "a = (\" Pizza\")\n",
+        "b = (\"Pineapple \")\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2Nc9FwpcGqtV",
+        "outputId": "46c62704-78e5-4be3-c3fd-83b342d70916"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " PizzaPineapple \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = [4, 7, 3, 5, 9]\n",
+        "print"
+      ],
+      "metadata": {
+        "id": "USk31VeNxTzF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "movies = [\"star wars: the clone wars\", \"spongebob\", \"adventure time\", \"phineas & ferb\", \"regular show\"]\n",
+        "print(movies)\n",
+        "x = sorted(movies)\n",
+        "print(x)\n",
+        "movies.sort()\n",
+        "print(movies)\n",
+        "y = sorted(movies, reverse=True)\n",
+        "print(y)\n",
+        "len(movies)\n",
+        "print(\"I have \" + str(len(movies)) + \" favorite movies\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ztq7dkpfMpAP",
+        "outputId": "dc01f452-5538-407b-9a7f-d0b69675caf5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['star wars: the clone wars', 'spongebob', 'adventure time', 'phineas & ferb', 'regular show']\n",
+            "['adventure time', 'phineas & ferb', 'regular show', 'spongebob', 'star wars: the clone wars']\n",
+            "['adventure time', 'phineas & ferb', 'regular show', 'spongebob', 'star wars: the clone wars']\n",
+            "['star wars: the clone wars', 'spongebob', 'regular show', 'phineas & ferb', 'adventure time']\n",
+            "I have 5 favorite movies\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tvshows = ['stranger things', 'regular show', 'chowder', 'spongebob', 'game of thrones']\n",
+        "for show in tvshows:\n",
+        "    print(show)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "a1o21DB5yWFU",
+        "outputId": "a849f5ed-e962-4eb4-ce0d-f7a7cdec72c5"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "stranger things\n",
+            "regular show\n",
+            "chowder\n",
+            "spongebob\n",
+            "game of thrones\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tvshows = ['stranger things', 'regular show', 'chowder', 'spongebob', 'game of thrones']\n",
+        "for show in tvshows:\n",
+        "    print(show.title() + \", is a great TV show.\")\n",
+        "print(\"I love these show\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5iXvewc-0llh",
+        "outputId": "ba6eae09-1410-4fa2-8dea-3fa08b599bc9"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Stranger Things, is a great TV show.\n",
+            "Regular Show, is a great TV show.\n",
+            "Chowder, is a great TV show.\n",
+            "Spongebob, is a great TV show.\n",
+            "Game Of Thrones, is a great TV show.\n",
+            "I love these show\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nums = list(range(0, 20, 2))\n",
+        "print(nums)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0A43KWvQ3-CT",
+        "outputId": "584f215c-b965-4a04-d0a8-4fc2dc296038"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "odd_number = list(range(1,20, 2))\n",
+        "print(odd_number)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NzMwrcWlDXNh",
+        "outputId": "ad24cf04-1060-4b75-aeda-1200b4c3be98"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "even_number = list(range(0, 20, 2))\n",
+        "print(even_number)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jnipl5uLFL1W",
+        "outputId": "2e6953bf-35e0-448c-8045-0c0279238643"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nums = list(range(0, 20, 2))\n",
+        "print(nums)\n",
+        "\n",
+        "print(min(nums))\n",
+        "\n",
+        "print(max(nums))\n",
+        "\n",
+        "print(sum(nums))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kijyO5Rk7r-o",
+        "outputId": "4c1938f6-ee9d-47f8-ae5e-b92720c63b93"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]\n",
+            "0\n",
+            "18\n",
+            "90\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tvshows = ['stranger things', 'regular show', 'chowder', 'spongebob', 'game of thrones']\n",
+        "tvshows.sort()\n",
+        "print(tvshows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pzMgr6AxGY20",
+        "outputId": "6e66183d-46db-4c26-a35c-c446fe6e1dfb"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['chowder', 'game of thrones', 'regular show', 'spongebob', 'stranger things']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "we = ['me', 'my', 'moe']\n",
+        "print(we[0:3])\n",
+        "print(we[2:3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ud2UfmVuJ25n",
+        "outputId": "1caa2e8b-61a6-4605-b48c-4474d27d6d67"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['me', 'my', 'moe']\n",
+            "['moe']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tvshows = ['stranger things', 'regular show', 'chowder', 'spongebob', 'game of thrones']\n",
+        "for shows in tvshows[:3]:\n",
+        "    print(shows.title())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yYhOY4z8HW0S",
+        "outputId": "d45ec0f4-7aca-4c68-d444-868575958cdf"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Stranger Things\n",
+            "Regular Show\n",
+            "Chowder\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tvshows = ['stranger things', 'regular show', 'chowder', 'spongebob', 'game of thrones']\n",
+        "for shows in tvshows[3:5]:\n",
+        "  print(shows.title())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ytAyWEP3LMzQ",
+        "outputId": "5ecac627-fd93-4f67-9b91-56aba41a1571"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Spongebob\n",
+            "Game Of Thrones\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Example of conditional operations\n",
+        "motorcycles = ['ducati', 'bmw', 'yamaha', 'honda']\n",
+        "for bike in motorcycles:\n",
+        "  if bike =='ducati':\n",
+        "    print(bike.upper())\n",
+        "  else:\n",
+        "    print(bike.lower())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_B2VOWJyNdhL",
+        "outputId": "2d8bd084-f644-434f-9dee-2cf188b93d1e"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DUCATI\n",
+            "bmw\n",
+            "yamaha\n",
+            "honda\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "patient_exam = 'echo'\n",
+        "if patient_exam != 'ecg':\n",
+        "  print('incorrect exam!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mN7vrov1RLf8",
+        "outputId": "d8062092-57e4-4738-9c4e-c92099784d8f"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "incorrect exam!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "readmit_days_after_discharge = 29\n",
+        "if readmit_days_after_discharge < 30:\n",
+        "    print(\"Patient was readmited within 30 days\")\n",
+        "else:\n",
+        "    print(\"Patient was readmited after 30 days\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qNS3shwhSOnq",
+        "outputId": "121809e3-be95-45df-87fa-a575d4f6fdba"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Patient was readmited within 30 days\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x ='Hello'\n",
+        "y ='hello'\n",
+        "if x == y:\n",
+        "  print('Equall')\n",
+        "else:\n",
+        "  print('Not equall')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iLg2SloMXL52",
+        "outputId": "b7c74d3e-d32f-48a7-a54c-bfd80d0c2cf9"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Not equall\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "toppings = ['chocolate', 'sprinkels']\n",
+        "\n",
+        "for topping in toppings:\n",
+        "  if topping == 'chocolate':\n",
+        "    print(\"All out of chocolate!\")\n",
+        "  else:\n",
+        "    print(\"Adding the following topping! \" + topping)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S9jjz4VJX8Ok",
+        "outputId": "f8f92e7d-03e8-46dd-fe66-f7558a681a4a"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "All out of chocolate!\n",
+            "Adding the following topping! sprinkels\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
